@@ -17,7 +17,7 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<ActivitiesPage />}></Route>
-        <Route path={":clickedActivity"} element={<Activity />}></Route>
+        <Route path={":activityName"} element={<Activity />}></Route>
         <Route path="login" element={<Login />}></Route>
         <Route path="register" element={<Register />}></Route>
         <Route path="*" element={<Error404 />}></Route>

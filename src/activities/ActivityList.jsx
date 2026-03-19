@@ -2,6 +2,7 @@ import { useState } from "react";
 import { deleteActivity } from "../api/activities";
 import { useAuth } from "../auth/AuthContext";
 import { Link } from "react-router";
+import Activity from "./Activity";
 
 export default function ActivityList({ activities, syncActivities }) {
   return (

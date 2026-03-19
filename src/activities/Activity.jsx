@@ -1,10 +1,10 @@
 import { useParams } from "react-router";
 
 export default function Activity() {
-  const { clickedActivity } = useParams();
+  const { activityName } = useParams();
   return (
     <>
-      <h1>{clickedActivity}</h1>
+      <h1>{activityName}</h1>
     </>
   );
 }
